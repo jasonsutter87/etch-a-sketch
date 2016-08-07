@@ -1,6 +1,6 @@
 canvas{
 	background-color: tan;
-	width: 100%;
+	width: 80%;
 	height: auto%;
 }
 
@@ -11,9 +11,16 @@ canvas{
 
 .container{
 	background-color: red;
-	width: 70%;
+	width: 90%;
 }
 
 .center{
 	text-align: center;
+}
+
+.dial{
+	margin: center;
+	text-align: center;
+	height: auto;
+	width: 70%;
 }
