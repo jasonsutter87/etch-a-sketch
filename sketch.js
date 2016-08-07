@@ -1,5 +1,5 @@
-var xPos = 500;
-var yPos = 500;
+var xPos = 250;
+var yPos = 250;
 
 var canvas,
 	context;
@@ -74,8 +74,8 @@ function keyDown(e) {
 	  var ctx = canvas.getContext("2d");
 	  delete ctx;
 	  context.clearRect(0, 0, 1000, 1000);
-	  xPos = 500;
-	  yPos = 500;
+	  xPos = 250;
+	  yPos = 250;
 	}
 }
 
