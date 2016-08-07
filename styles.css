@@ -1,3 +1,19 @@
 canvas{
 	background-color: tan;
+	width: 100%;
+	height: auto%;
+}
+
+.side{
+	background-color: red;
+	padding: 20px;
+}
+
+.container{
+	background-color: red;
+	width: 70%;
+}
+
+.center{
+	text-align: center;
 }
