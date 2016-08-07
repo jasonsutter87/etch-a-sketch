@@ -3,8 +3,7 @@ var yPos = 250;
 
 var canvas,
 	context;
-
-
+	
 function keyDown(e) {
  var key = e.which || e.keyCode;
     if (key === 97) { 
@@ -17,7 +16,6 @@ function keyDown(e) {
       xPos -= 10
 	  ctx.lineTo(xPos,yPos);
 	  ctx.stroke();
-      console.log([xPos, yPos])
       return xPos 
 	}
 
